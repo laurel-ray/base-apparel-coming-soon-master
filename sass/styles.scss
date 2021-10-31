@@ -1,0 +1,55 @@
+/////COLOR VARIABLES
+
+//PRIMARY COLORS
+
+$clr-desat-red: #ce9797;
+$clr-soft-red: #f96262;
+
+//NEUTRAL COLOR
+
+$clr-greyish-red: #413a3a;
+
+///GRADIENTS
+$clr-top-bg: #ffffff;
+$clr-bottom-bg: #fff5f5;
+
+$clr-btn-1: #f8bfbf;
+$clr-btn-2:  #ee8c8c;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    color: $clr-desat-red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.container {
+    width: 3.75rem;
+    background-image: linear-gradient(to bottom, $clr-top-bg, $clr-bottom-bg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
