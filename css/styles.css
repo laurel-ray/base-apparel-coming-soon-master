@@ -18,15 +18,58 @@ body {
   font-family: "Josefin Sans";
   font-weight: 400;
   color: #ce9797;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  height: 95vh;
 }
 
 .container {
-  width: 3.75rem;
+  width: 37.5rem;
   background-image: linear-gradient(to bottom, #ffffff, #fff5f5);
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
+}
+.container_logo {
+  width: 45%;
+  display: block;
+  float: left;
+  padding: 3rem;
+}
+.container_hero-mobile {
+  display: block;
+  margin-bottom: 6rem;
+}
+.container_heading {
+  text-align: center;
+  font-size: 4rem;
+  color: #413a3a;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+.container_heading span {
+  color: #ce9797;
+  font-weight: 300;
+  display: block;
+}
+.container_text {
+  font-size: 1.4rem;
+  line-height: 2;
+}
+.container_form {
+  background-color: #fff5f5;
+}
+.container_form-input {
+  background-color: #fff5f5;
+  padding: 1.5rem;
+  border: 1px solid;
+  border-radius: 10rem;
+  color: #ce9797;
+}
+
+.attribution {
+  flex: 0;
 }/*# sourceMappingURL=styles.css.map */

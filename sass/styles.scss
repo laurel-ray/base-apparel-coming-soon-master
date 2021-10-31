@@ -37,19 +37,87 @@ body {
     font-family: 'Josefin Sans';
     font-weight: 400;
     color: $clr-desat-red;
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
+    height: 95vh;
+    
     
 }
 
 .container {
-    width: 3.75rem;
+    width: 37.5rem;
+    
     background-image: linear-gradient(to bottom, $clr-top-bg, $clr-bottom-bg);
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
+    
 
+    &_logo {
+        width: 45%;
+        display: block;
+        float: left;
+        padding: 3rem;
+
+        
+    }
+
+    &_hero-mobile {
+        display: block;
+        margin-bottom: 6rem;
+    }
+
+    &_heading {
+    
+        text-align: center;
+        font-size: 4rem;
+        color: $clr-greyish-red;
+        text-transform: uppercase;
+        line-height: 1.5;
+
+        span {
+            color: $clr-desat-red;
+            font-weight: 300;
+            display: block;
+            
+        }        
+    }
+
+    &_text {
+        font-size: 1.4rem;
+        line-height: 2;
+
+    }
+
+    &_form {
+        
+
+        &-input {
+            background-color: $clr-bottom-bg;
+            padding: 1.5rem;
+            border: 1px solid;
+            border-radius: 10rem;
+            color: $clr-desat-red;
+        }
+        background-color: $clr-bottom-bg;
+    }
+
+
+
+
+
+       
+}
+
+
+
+
+.attribution {
+    flex: 0;
+
+    
 }
 
