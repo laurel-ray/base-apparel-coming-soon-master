@@ -28,6 +28,7 @@ body {
 
 .container {
   width: 37.5rem;
+  padding-bottom: 3rem;
   background-image: linear-gradient(to bottom, #ffffff, #fff5f5);
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,6 +50,7 @@ body {
   color: #413a3a;
   text-transform: uppercase;
   line-height: 1.5;
+  padding: 0 4rem;
 }
 .container_heading span {
   color: #ce9797;
@@ -58,16 +60,27 @@ body {
 .container_text {
   font-size: 1.4rem;
   line-height: 2;
+  padding: 3rem;
 }
 .container_form {
-  background-color: #fff5f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.container_form-input {
+.container-section {
+  width: 85%;
+  border: 1px solid #ce9797;
+  border-radius: 10px;
+}
+.container-section-input {
+  flex-grow: 2;
   background-color: #fff5f5;
   padding: 1.5rem;
-  border: 1px solid;
-  border-radius: 10rem;
+  border: hidden;
   color: #ce9797;
+}
+.container-section-btn {
+  border-radius: 10rem;
 }
 
 .attribution {
